@@ -8,8 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+
+@protocol FirstViewDelegate
+- (void)passFirstViewValue:(NSString *)string;
+@end
+
+
+
 @interface ViewController : UIViewController
 
+@property(nonatomic, strong) id<FirstViewDelegate>delegate;
 
 @end
 
