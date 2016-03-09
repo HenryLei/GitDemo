@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		170727041C77033C003AAFB0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170727031C77033C003AAFB0 /* FirstViewController.m */; };
+		17E183221C857A04002E6C7C /* CoreDataModle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17E183201C857A04002E6C7C /* CoreDataModle.xcdatamodeld */; };
+		17E183241C857B40002E6C7C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E183231C857B40002E6C7C /* CoreData.framework */; };
+		17E1832E1C857F2C002E6C7C /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E183271C857F2C002E6C7C /* Person+CoreDataProperties.m */; };
+		17E1832F1C857F2C002E6C7C /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E183291C857F2C002E6C7C /* Person.m */; };
+		17E183301C857F2C002E6C7C /* Card+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E1832B1C857F2C002E6C7C /* Card+CoreDataProperties.m */; };
+		17E183311C857F2C002E6C7C /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E1832D1C857F2C002E6C7C /* Card.m */; };
 		17ECB88C1C759D2700213933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17ECB88B1C759D2700213933 /* main.m */; };
 		17ECB88F1C759D2700213933 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17ECB88E1C759D2700213933 /* AppDelegate.m */; };
 		17ECB8921C759D2700213933 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17ECB8911C759D2700213933 /* ViewController.m */; };
@@ -38,6 +44,16 @@
 /* Begin PBXFileReference section */
 		170727021C77033B003AAFB0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		170727031C77033C003AAFB0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		17E183211C857A04002E6C7C /* CoreDataModle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModle.xcdatamodel; sourceTree = "<group>"; };
+		17E183231C857B40002E6C7C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		17E183261C857F2C002E6C7C /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		17E183271C857F2C002E6C7C /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		17E183281C857F2C002E6C7C /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		17E183291C857F2C002E6C7C /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		17E1832A1C857F2C002E6C7C /* Card+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Card+CoreDataProperties.h"; sourceTree = "<group>"; };
+		17E1832B1C857F2C002E6C7C /* Card+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Card+CoreDataProperties.m"; sourceTree = "<group>"; };
+		17E1832C1C857F2C002E6C7C /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		17E1832D1C857F2C002E6C7C /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		17ECB8871C759D2600213933 /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17ECB88B1C759D2700213933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		17ECB88D1C759D2700213933 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E183241C857B40002E6C7C /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,9 +98,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17E183251C857EF8002E6C7C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				17E183201C857A04002E6C7C /* CoreDataModle.xcdatamodeld */,
+				17E183261C857F2C002E6C7C /* Person+CoreDataProperties.h */,
+				17E183271C857F2C002E6C7C /* Person+CoreDataProperties.m */,
+				17E183281C857F2C002E6C7C /* Person.h */,
+				17E183291C857F2C002E6C7C /* Person.m */,
+				17E1832A1C857F2C002E6C7C /* Card+CoreDataProperties.h */,
+				17E1832B1C857F2C002E6C7C /* Card+CoreDataProperties.m */,
+				17E1832C1C857F2C002E6C7C /* Card.h */,
+				17E1832D1C857F2C002E6C7C /* Card.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		17ECB87E1C759D2500213933 = {
 			isa = PBXGroup;
 			children = (
+				17E183251C857EF8002E6C7C /* CoreData */,
+				17E183231C857B40002E6C7C /* CoreData.framework */,
 				17ECB8891C759D2700213933 /* GitDemo */,
 				17ECB8A31C759D2800213933 /* GitDemoTests */,
 				17ECB8AE1C759D2800213933 /* GitDemoUITests */,
@@ -276,8 +311,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				17ECB8921C759D2700213933 /* ViewController.m in Sources */,
+				17E183301C857F2C002E6C7C /* Card+CoreDataProperties.m in Sources */,
 				17ECB88F1C759D2700213933 /* AppDelegate.m in Sources */,
+				17E1832F1C857F2C002E6C7C /* Person.m in Sources */,
 				17ECB88C1C759D2700213933 /* main.m in Sources */,
+				17E183311C857F2C002E6C7C /* Card.m in Sources */,
+				17E183221C857A04002E6C7C /* CoreDataModle.xcdatamodeld in Sources */,
+				17E1832E1C857F2C002E6C7C /* Person+CoreDataProperties.m in Sources */,
 				170727041C77033C003AAFB0 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -523,6 +563,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		17E183201C857A04002E6C7C /* CoreDataModle.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				17E183211C857A04002E6C7C /* CoreDataModle.xcdatamodel */,
+			);
+			currentVersion = 17E183211C857A04002E6C7C /* CoreDataModle.xcdatamodel */;
+			path = CoreDataModle.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 17ECB87F1C759D2500213933 /* Project object */;
 }
