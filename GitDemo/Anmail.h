@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Dog.h"
+#import "Cat.h"
 
 @interface Anmail : NSObject
+- (Dog *)creatDogAnmail;
+- (Cat *)creatCatAnmail;
+
 
 @end

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		170727041C77033C003AAFB0 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170727031C77033C003AAFB0 /* FirstViewController.m */; };
+		1713943E1C8D13080010A3AE /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 1713943D1C8D13080010A3AE /* Cat.m */; };
+		171394411C8D13160010A3AE /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 171394401C8D13160010A3AE /* Dog.m */; };
+		171394441C8D13260010A3AE /* Anmail.m in Sources */ = {isa = PBXBuildFile; fileRef = 171394431C8D13260010A3AE /* Anmail.m */; };
 		17E183221C857A04002E6C7C /* CoreDataModle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 17E183201C857A04002E6C7C /* CoreDataModle.xcdatamodeld */; };
 		17E183241C857B40002E6C7C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E183231C857B40002E6C7C /* CoreData.framework */; };
 		17E1832E1C857F2C002E6C7C /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E183271C857F2C002E6C7C /* Person+CoreDataProperties.m */; };
@@ -44,6 +47,12 @@
 /* Begin PBXFileReference section */
 		170727021C77033B003AAFB0 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		170727031C77033C003AAFB0 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1713943C1C8D13080010A3AE /* Cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		1713943D1C8D13080010A3AE /* Cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
+		1713943F1C8D13160010A3AE /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		171394401C8D13160010A3AE /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		171394421C8D13260010A3AE /* Anmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Anmail.h; sourceTree = "<group>"; };
+		171394431C8D13260010A3AE /* Anmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Anmail.m; sourceTree = "<group>"; };
 		17E183211C857A04002E6C7C /* CoreDataModle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataModle.xcdatamodel; sourceTree = "<group>"; };
 		17E183231C857B40002E6C7C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		17E183261C857F2C002E6C7C /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
@@ -145,6 +154,12 @@
 				17ECB8911C759D2700213933 /* ViewController.m */,
 				170727021C77033B003AAFB0 /* FirstViewController.h */,
 				170727031C77033C003AAFB0 /* FirstViewController.m */,
+				1713943C1C8D13080010A3AE /* Cat.h */,
+				1713943D1C8D13080010A3AE /* Cat.m */,
+				1713943F1C8D13160010A3AE /* Dog.h */,
+				171394401C8D13160010A3AE /* Dog.m */,
+				171394421C8D13260010A3AE /* Anmail.h */,
+				171394431C8D13260010A3AE /* Anmail.m */,
 				17ECB8931C759D2700213933 /* Main.storyboard */,
 				17ECB8961C759D2700213933 /* Assets.xcassets */,
 				17ECB8981C759D2700213933 /* LaunchScreen.storyboard */,
@@ -310,10 +325,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				171394411C8D13160010A3AE /* Dog.m in Sources */,
 				17ECB8921C759D2700213933 /* ViewController.m in Sources */,
 				17E183301C857F2C002E6C7C /* Card+CoreDataProperties.m in Sources */,
 				17ECB88F1C759D2700213933 /* AppDelegate.m in Sources */,
 				17E1832F1C857F2C002E6C7C /* Person.m in Sources */,
+				171394441C8D13260010A3AE /* Anmail.m in Sources */,
+				1713943E1C8D13080010A3AE /* Cat.m in Sources */,
 				17ECB88C1C759D2700213933 /* main.m in Sources */,
 				17E183311C857F2C002E6C7C /* Card.m in Sources */,
 				17E183221C857A04002E6C7C /* CoreDataModle.xcdatamodeld in Sources */,

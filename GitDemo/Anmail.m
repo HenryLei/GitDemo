@@ -7,7 +7,35 @@
 //
 
 #import "Anmail.h"
-
+#import "Dog.h"
+#import "Cat.h"
 @implementation Anmail
 
+- (Dog *)creatDogAnmail{
+    Dog *dog = [[Dog alloc] init];
+    return  dog;
+}
+
+
+- (Cat *)creatCatAnmail{
+    Cat *cat = [[Cat alloc] init];
+    return  cat;
+}
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

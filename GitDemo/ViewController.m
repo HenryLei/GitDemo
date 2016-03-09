@@ -55,7 +55,7 @@
     
     
 //    [self changeThe];
-    [self initCoreData];
+//    [self initCoreData];
 }
 
 
