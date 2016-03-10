@@ -56,8 +56,16 @@
     
 //    [self changeThe];
 //    [self initCoreData];
+    
+    NSLog(@"%@",[self getCurrentTime]);
 }
 
+- (NSString *)getCurrentTime{
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"yyyy-MM-dd HH:mm:ss:sss"];
+    NSString *dateTime = [formatter stringFromDate:[NSDate date]];
+    return dateTime;
+}
 
 - (void)initCoreData{
     //从应用程序包中加载模型文件
